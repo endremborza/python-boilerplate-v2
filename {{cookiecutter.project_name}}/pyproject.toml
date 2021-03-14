@@ -1,0 +1,18 @@
+[project]
+name = "{{cookiecutter.project_name}}"
+description = "{{cookiecutter.description}}"
+authors = [
+    "{{cookiecutter.full_name}}"
+]
+license = "MIT"
+readme = "README.md"
+python = ">={{cookiecutter.python_version}}"
+url = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}"
+boilerplate_branch="master"
+[build-system]
+requires = [
+    "toml >= 0.10.0",
+    "setuptools >= 38.6.0",
+    "wheel >= 0.31.0",
+    "setuptools_scm >= 2.0.0, <3"
+]
