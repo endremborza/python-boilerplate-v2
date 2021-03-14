@@ -9,7 +9,7 @@ author_name = " - ".join(pytom["project"]["authors"])
 
 __version__ = ...
 with open(os.path.join(package_name, "_version.py")) as fp:
-    exec(fp.read()) # get __version__
+    exec(fp.read())  # get __version__
 
 with open("README.md") as fp:
     long_description = fp.read()
