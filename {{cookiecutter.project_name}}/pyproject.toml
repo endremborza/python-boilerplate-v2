@@ -8,7 +8,6 @@ license = "MIT"
 readme = "README.md"
 python = ">={{cookiecutter.python_version}}"
 url = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}"
-boilerplate_branch="master"
 [build-system]
 requires = [
     "toml >= 0.10.0",
