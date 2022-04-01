@@ -11,6 +11,7 @@ dependencies = []
 test = [ "branthebuilder"]
 doc = [
     "sphinx",
+    "pandoc",
     "graphviz",
     "sphinx-automodapi",
     "pygments",
