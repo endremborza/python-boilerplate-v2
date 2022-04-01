@@ -5,4 +5,3 @@
 [![codecov](https://img.shields.io/codecov/c/github/{{cookiecutter.github_user}}/{{cookiecutter.project_name}})](https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}})
 [![pypi](https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg)](https://pypi.org/project/{{cookiecutter.project_name}}/)
 
-add keywords to pyproject.toml

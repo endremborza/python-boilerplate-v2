@@ -1,7 +1,8 @@
 {
-    "project_name": "python-project",
+    "project_name": "testproject",
     "description": "My little project.",
     "full_name": "Endre Márk Borza",
     "github_user": "endremborza",
-    "python_version": "3.8"
+    "python_version": "3.8",
+    "email": "test@test.com"
 }
