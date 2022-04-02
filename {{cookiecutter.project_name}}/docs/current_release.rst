@@ -1,1 +1,0 @@
-- first release of {{cookiecutter.project_name}}, yay!!
