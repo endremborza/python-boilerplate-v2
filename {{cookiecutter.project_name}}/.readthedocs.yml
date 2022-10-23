@@ -7,8 +7,12 @@ sphinx:
 
 formats: all
 
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "{{cookiecutter.python_version}}"
+
 python:
-  version: {{cookiecutter.python_version}}
   install:
     - method: pip
       path: .
