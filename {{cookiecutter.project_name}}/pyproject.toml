@@ -18,5 +18,5 @@ Homepage = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.proje
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[tool.branb]
-line-length = 88
+[tool.ruff.lint]
+select = ["E", "F", "I"]
