@@ -20,5 +20,5 @@ jobs:
         with:
           python-version: '{{cookiecutter.python_version}}'
           enable-cache: true
-      - run: uv pip install -e .[test]
+      - run: uv sync --group test
       - run: branb test
