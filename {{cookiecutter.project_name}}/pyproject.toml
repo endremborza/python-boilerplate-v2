@@ -9,7 +9,7 @@ requires-python = ">={{cookiecutter.python_version}}"
 dependencies = []
 
 [project.optional-dependencies]
-test = ["branthebuilder"]
+test = ["branthebuilder[test]"]
 doc = ["branthebuilder[doc]"]
 
 [project.urls]
