@@ -8,12 +8,12 @@ readme = "README.md"
 requires-python = ">={{cookiecutter.python_version}}"
 dependencies = []
 
-[project.optional-dependencies]
-test = ["branthebuilder[test]"]
-doc = ["branthebuilder[doc]"]
-
 [project.urls]
 Homepage = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}"
+
+[dependency-groups]
+test = ["branthebuilder[test]"]
+doc = ["branthebuilder[doc]"]
 
 [build-system]
 requires = ["hatchling"]
