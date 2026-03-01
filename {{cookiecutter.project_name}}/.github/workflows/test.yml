@@ -19,6 +19,6 @@ jobs:
         enable-cache: true
     - run: uv sync --group test
     - run: branb test
-    - uses: codecov/codecov-action@v4
+    - uses: codecov/codecov-action@v5
       with:
         fail_ci_if_error: true
