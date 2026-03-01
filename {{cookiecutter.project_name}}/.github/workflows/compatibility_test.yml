@@ -16,8 +16,9 @@ jobs:
     runs-on: {% raw %}${{ matrix.os }}{% endraw %}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v5
         with:
           python-version: '{{cookiecutter.python_version}}'
-      - run: pip install -e .[test]
+          enable-cache: true
+      - run: uv pip install -e .[test]
       - run: branb test
