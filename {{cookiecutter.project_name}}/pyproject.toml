@@ -1,6 +1,7 @@
 [project]
 name = "{{cookiecutter.project_name}}"
-dynamic = ["version", "description"]
+description = "{{cookiecutter.description}}"
+dynamic = ["version"]
 authors = [{name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}"}]
 license = {file = "LICENSE"}
 readme = "README.md"
@@ -15,8 +16,11 @@ doc = ["branthebuilder[doc]"]
 Homepage = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}"
 
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "{{cookiecutter.project_name}}/__init__.py"
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
