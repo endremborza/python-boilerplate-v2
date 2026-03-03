@@ -11,9 +11,6 @@ dependencies = []
 [project.urls]
 Homepage = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}"
 
-[dependency-groups]
-test = ["branthebuilder[test]"]
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
